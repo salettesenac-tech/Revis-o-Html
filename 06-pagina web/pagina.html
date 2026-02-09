@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueleto HTML</title>
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <h1>FitLife Academy</h1>
+        <nav>
+            <ul>
+                <li><a href="">Modalidades</a></li>
+                <li><a href="">Hórarios</a></li>
+                <li><a href="">Matrícula</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--Corpo-->
+    <main>
+
+    <!--Secao A-->
+     <section>
+        <h2>Modalidades</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas reiciendis, distinctio, ab earum quidem officia, <br>officiis vitae accusantium voluptatem dignissimos consectetur dolor sint cumque? Mollitia quam eligendi fugit deserunt animi! <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor aperiam ad qui est culpa officia nulla consectetur,  <br>nihil cupiditate atque cum reprehenderit ab? Dolore natus sint qui dolores blanditiis.</p>
+
+        <ul>
+            <li><strong>Musculação</strong>
+             <em>Voçê adquire musculo</em></li>
+             <img src="musculacao.jpg" alt="imagem de peso" height="300" width="350">
+            <li><strong>CrossFit</strong>
+            <em>Cançamos muito</em></li>
+            <img src="crossfit.jpg" alt="imagem de crossfit" height="300" width="330">
+            <li><strong>Yoga</strong>
+            <em>Adiquire Flexibilidade e Elasticidade</em></li>
+            <img src="yoga.jpg" alt="imagem de yoga">
+        </ul>
+     </section>
+
+    <!--Secao B-->
+     <section>
+       <h2>Horarios da Semana</h2>
+       <table border="1">
+         <thead>
+            <tr>
+                <th>Horario</th>
+                <th>Segunda</th>
+                <th>Quarta</th>
+                <th>Sexta</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr>
+                <th>07:30-09:30</th>
+                <th>Musculação</th>
+                <th>CrossFit</th>
+                <th>Yoga</th>
+            </tr>
+
+            <tr>
+                <th>14:30-16:30</th>
+                <th>Musculação</th>
+                <th>CrossFit</th>
+                <th>Yoga</th>
+            </tr>
+
+            <tfoot>
+                <td colspan="4"><strong>Sujeito a lotação maxima</strong></td>
+            </tfoot>
+         </tbody>
+        </table>
+       </section>
+
+     <!--Secao C -->
+       <section>
+        <h2>Pré-Matrícula</h2>
+         <form action="POST">
+          <fieldset>
+            <legend><strong>MATRÍCULA</strong></legend>
+
+
+         <label for="nome">Nome Completo:</label><br>
+         <input type="text" id="nome">
+<br>
+<br> 
+  
+         <label for="email">E-mail:</label><br>
+         <input type="email" id="email">
+<br>
+<br>
+
+         <label for="date">Data de Nascimento:</label><br>
+         <input type="date" id="data">
+<br>
+<br>
+
+         <label for="nome">Plano de Interesse:</label><br>
+         <select name="plano de Interesse" id="nome">
+            <option value="">Selecione seu Interesse</option>
+            <option value="Mensal">Mensal</option>
+            <option value="Anual">Anual</option>
+            <option value="Trimestral">Trimestral</option>
+         </select>
+<br>
+<br>
+
+         <label for="objetivos">Objetivo:</label><br>
+         <input type="textarea" name="objetivo" id="objetivos">
+<br>
+<br>
+
+        <label for="termos">Termos:</label><br>
+        <input type="checkbox" name="termos" id="termos">
+        Li e aceito as regras
+<br>
+<br>
+
+<button type="submit">Enviar</button><br>
+<br>
+<button type="reset">Limpar</button>
+          </fieldset>
+
+         </form>
+       </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+  <p>&copy; 2026 Todos os direitos reservados.</p>
+
+<a href="https://www.instagram.com/">Instagram</a><br>
+<a href="https://www.facebook.com/?locale=pt_BR">FaceBook</a><br>
+<a href="mailto:salettesenac@gmail.com">E-mail de contato</a>
+</footer>
+
+</body>
+</html>
